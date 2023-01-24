@@ -1,0 +1,18 @@
+{
+    "add": [
+        {
+            "id": "1",
+            "name": "Super Job in Cytiva",
+            "description": "You will be responsible for serverless app development",
+            "salary": "15k (pdk)",
+            "tags": ["serverless", "azure", "nodejs"]
+        },
+        {
+            "id": "2",
+            "name": "Boring job in some not serverless oriented company",
+            "description": "You will be responsible for maintaing some old infra",
+            "salary": "Panie Areczku ja sam dokladam to tego interesu",
+            "tags": ["jsp", "php", "ble"]
+        }
+    ]
+}

@@ -1,0 +1,125 @@
+{
+	"info": {
+		"_postman_id": "cd8f7206-d6a7-4428-81a1-685d727f2c41",
+		"name": "azure-workshops",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Batch Create",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"add\": [\r\n        {\r\n            \"id\": \"1\",\r\n            \"name\": \"Super Job in Cytiva\",\r\n            \"description\": \"You will be responsible for serverless app development\",\r\n            \"salary\": \"15k (pdk)\",\r\n            \"tags\": [\r\n                \"serverless\",\r\n                \"azure\",\r\n                \"nodejs\"\r\n            ]\r\n        },\r\n        {\r\n            \"id\": \"2\",\r\n            \"name\": \"Boring job in some not serverless oriented company\",\r\n            \"description\": \"You will be responsible for maintaing some old infra\",\r\n            \"salary\": \"Panie Areczku ja sam dokladam to tego interesu\",\r\n            \"tags\": [\r\n                \"jsp\",\r\n                \"php\",\r\n                \"ble\"\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Batch",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Batch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Batch Delete",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"add\": [\r\n        {\r\n            \"id\": \"1\",\r\n            \"name\": \"Super Job in Cytiva\",\r\n            \"description\": \"You will be responsible for serverless app development\",\r\n            \"salary\": \"15k (pdk)\",\r\n            \"tags\": [\r\n                \"serverless\",\r\n                \"azure\",\r\n                \"nodejs\"\r\n            ]\r\n        },\r\n        {\r\n            \"id\": \"2\",\r\n            \"name\": \"Boring job in some not serverless oriented company\",\r\n            \"description\": \"You will be responsible for maintaing some old infra\",\r\n            \"salary\": \"Panie Areczku ja sam dokladam to tego interesu\",\r\n            \"tags\": [\r\n                \"jsp\",\r\n                \"php\",\r\n                \"ble\"\r\n            ]\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Batch",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Batch"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Query",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"tag\": \"nodejs\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/Query",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"Query"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Anagram",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"word1\": \"team\",\r\n    \"word2\": \"meat\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:7071/api/test",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7071",
+					"path": [
+						"api",
+						"test"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

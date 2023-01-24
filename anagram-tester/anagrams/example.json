@@ -1,0 +1,26 @@
+{
+    "anagrams": [
+        {
+            "word1": "angel",
+            "word2": "glean"
+        },
+        {
+            "word1": "arc",
+            "word2": "car"
+        },
+        {
+            "word1": "team",
+            "word2": "meat"
+        },
+        {
+            "word1": "grab",
+            "word2": "brag"
+        }
+    ],
+    "notAnagrams": [
+        {
+            "word1": "asdd",
+            "word2": "bbbb"
+        }
+    ]
+}
